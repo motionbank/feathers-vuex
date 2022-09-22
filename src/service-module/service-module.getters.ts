@@ -4,7 +4,8 @@ eslint
 @typescript-eslint/no-explicit-any: 0
 */
 import sift from 'sift'
-import { filterQuery, sorter, select } from '@feathersjs/adapter-commons'
+import { filterQuery, select } from '@feathersjs/adapter-commons'
+import { sorter } from '../sort'
 import { globalModels as models } from './global-models'
 import _omit from 'lodash/omit'
 import { unref } from '@vue/composition-api'
