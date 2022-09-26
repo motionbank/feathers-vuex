@@ -5,7 +5,8 @@ eslint
 */
 import sift from 'sift'
 import { _ } from '@feathersjs/commons'
-import { filterQuery, sorter, select } from '@feathersjs/adapter-commons'
+import { filterQuery, select } from '@feathersjs/adapter-commons'
+import { sorter } from '../sort'
 import { globalModels as models } from './global-models'
 import _get from 'lodash/get'
 import _omit from 'lodash/omit'
